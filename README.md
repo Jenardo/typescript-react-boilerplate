@@ -39,6 +39,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+** NOTE: In this custom config: **
+
+### node-sass -> scss 
+### bootstrap
+
+### Some commands_
+
+## `start` -> Will run the project calling sass compiler in order to compile scss file into css file.
+## `start:react` -> Will run the project with the standard react script, in this way you can still use index.scss file by import into index.tsx
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
